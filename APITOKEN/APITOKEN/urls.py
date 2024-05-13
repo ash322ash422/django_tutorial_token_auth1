@@ -7,6 +7,6 @@ urlpatterns = [
     #path('admin/', admin.site.urls),
     path('hello/', views.HelloView.as_view(), name='hello'),
     
-    #To get the token for user=admin, 
-    path('api-token-auth/', obtain_auth_token, name='api_token_auth'), 
+    #To get the token for user, send a POST request with username and password. See test_core.py
+    path('api-token-auth/', obtain_auth_token, name='api_token_auth'),
 ]
