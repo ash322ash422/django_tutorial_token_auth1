@@ -14,8 +14,11 @@ Generated token 9a3faecbe7a754de5866d11eeeaf893f55aaa991 for user admin
 Now open  another terminal and type : 
 
 ..\APITOKEN\core> python.exe .\test_core.py
+
 Response from server: {'token': '9a3faecbe7a754de5866d11eeeaf893f55aaa991'}
+
 token= 9a3faecbe7a754de5866d11eeeaf893f55aaa991
 #############################
+
 Response from server: {'message': 'Hello, Token Auth World!'}
 
